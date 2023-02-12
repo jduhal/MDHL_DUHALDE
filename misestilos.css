@@ -1,0 +1,86 @@
+*
+{
+margin: 0;
+padding: 0;
+box-sizing: content-box ;
+}
+
+body
+{
+margin: 0;
+height: auto;
+width: 100%;
+}
+
+nav
+{
+height: 300px;
+width: 100%;
+background-image:url("assets/design1_image2.jpg");
+}
+
+.topnav
+{
+background-color: #f3f7d4;
+float:right;
+}
+    
+.topnav a
+{
+background-color: #2c0ce1;
+color: #f2f2f2;
+text-align: left;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+}
+      
+.topnav a:hover
+{
+background-color: #4065de;
+color: black;
+}
+      
+.topnav a.active
+{
+background-color: #04AA6D;
+color: white;
+}
+
+.fondo
+{
+background-color: hwb(180 70% 10%);
+text-align:center;
+font-size:22px;
+color:black;
+font-weight:bold;
+padding:10px;
+border:3px solid rgb(5, 5, 5);
+}
+
+div
+{
+  line-height: 1.5;   font-size: 14pt;  
+}
+
+aside
+{
+width: 30%;
+padding-left: 0.5rem;
+margin-left: 0.5rem;
+float: left;   
+}
+    
+aside > p
+{
+margin: 0.5rem;            
+}
+
+.logo
+    { padding: 10px; margin: 1px; border: 2px solid black; float: center; width: 250px; }
+.foto1
+    { padding: 10px; margin: 1px; border: 2px solid black; float: center; width: 250px; }
+.foto2
+    { padding: 10px; margin: 1px; border: 2px solid black; float: left; width: 250px; }
+.foto3
+    { padding: 10px; margin: 1px; border: 2px solid black; float: left; width: 250px; }
